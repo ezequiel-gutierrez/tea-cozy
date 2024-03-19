@@ -1,0 +1,23 @@
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: solid 1px seashell;
+    z-index: 2;
+    background-color: black;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+nav .links {
+    width: 400px;
+    display: inline-flex;
+    justify-content: space-around;
+}

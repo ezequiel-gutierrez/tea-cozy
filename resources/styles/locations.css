@@ -1,0 +1,39 @@
+#location {
+    width: 1200px;
+    height: 700px;
+    background-image: url("../images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#location h2 {
+    background: none;
+    margin-bottom: 15px;
+}
+
+.location-card-container {
+    opacity: 1;
+    background: none;
+    width: inherit;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.location-card {
+    opacity: 1; 
+    background-color: black;
+    width: 300px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 3.4em;
+}
+
+.location-card h3 {
+    font-size: 24px;
+}

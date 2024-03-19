@@ -1,0 +1,27 @@
+#featured {
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+#featured img {
+    width: 300px;
+    height: 200px;
+}
+
+.featured-heading, .featured-heading h2 {
+    margin-bottom: 15px;
+}
+
+.featured-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-box {
+    margin-right: 30px;
+}
+
+.featured-images h4 {
+    padding: 10px 0;
+}
